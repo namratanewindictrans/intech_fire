@@ -1,2 +1,2 @@
 frappe
-git+https://github.com
+pypika @ git+https://github.com
