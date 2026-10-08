@@ -15,6 +15,6 @@ override-dependencies = [
 ]
 dependencies = [
     "frappe>=15.122.0",
-    "pypika @ git+https://github.com/frappe/pypika@7ef6e40215d46cd531e8c4e58650b84c11abbd04"
+   "pypika @ git+https://github.com/frappe/pypika@7ef6e40215d46cd531e8c4e58650b84c11abbd04"
 ]
 
