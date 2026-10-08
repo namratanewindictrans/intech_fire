@@ -1,0 +1,15 @@
+[project]
+name = "intech_fire"
+version = "0.0.1"
+description = "Intech Fire app"
+dependencies = [
+    "frappe>=15.122.0",
+]
+
+[tool.uv.sources]
+pypika = { git = "https://github.com", rev = "7ef6e40215d46cd531e8c4e58650b84c11abbd04" }
+
+[tool.uv]
+override-dependencies = [
+    "pypika @ git+https://github.com@7ef6e40215d46cd531e8c4e58650b84c11abbd04"
+]
